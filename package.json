@@ -4,12 +4,13 @@
 	"description": "An FCC Backend Challenge",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "nodemon server.js"
 	},
 	"dependencies": {
 		"cors": "^2.8.0",
 		"dotenv": "^16.0.0",
-		"express": "^4.12.4"
+		"express": "^4.12.4",
+		"nodemon": "^2.0.15"
 	},
 	"repository": {
 		"type": "git",
